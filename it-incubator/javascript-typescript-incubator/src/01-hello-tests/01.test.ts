@@ -8,7 +8,7 @@ let b: number;
 
 
 // each test get this data before start
-beforeEach( () => {
+beforeEach(() => {
     a = 1;
     b = 2;
 })
