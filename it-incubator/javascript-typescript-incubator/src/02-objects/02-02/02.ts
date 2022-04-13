@@ -1,11 +1,13 @@
 //use typescript for typing the object
 
+
 type TechType = {
     id: number
     title: string
 }
 
 type LocalCityType = {
+    house?: number;
     title: string
     street: string
 }
@@ -15,7 +17,7 @@ type AddressType = {
     city: LocalCityType
 }
 
-type StudentType = {
+export type StudentType = {
     id: number
     name: string
     age: number
@@ -25,7 +27,7 @@ type StudentType = {
 
 }
 
-const student: StudentType = {
+export const student: StudentType = {
     id: 1,
     name: "Maksim",
     age: 31,
